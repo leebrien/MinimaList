@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  font-family: Helvetica;
+}
+
+input, select, button {
+  margin: 5px;
+  margin-bottom: 2vw;
+}
+
+input{
+  padding: 5px;
+  border-radius: 1vw;
+  border-style: double ;
+  text-align: center;
+  
+}
+
+.minimalist:not(:second-child) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.minimalist:nth-child(1) {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 1vw;
+}
+
+.minimalist {
+  margin-top: 1vw;
+  margin-bottom: 2vw;
+}
+
+.minilist {
+  font-size: 5vw;
+  font-weight: bolder;
+  color: rgb(56, 56, 56);
+}
+
+.ma {
+  font-size: 2.5vw;
+  font-family: Helvetica;
+  font-weight: bolder;
+  color: rgb(56, 56, 56);
+}
+
+.taskContainer {
+  display: flex;
+  justify-content: center;
+  min-width: 50%;
+  max-width: 50%;
+  min-height: 30vw;
+  max-height: 30vw;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  overflow-y: auto;
+  
+  
+}
+
+/* Scrollbar styling */
+.taskContainer::-webkit-scrollbar {
+  width: 0.5vw;
+}
+
+.taskContainer::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.taskContainer::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 2vw;
+}
+
+.todoItem{
+  display: flex;
+  text-align: start;
+  align-items: baseline;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 15vw;
+  margin-right: 3.3vw;
+  min-width: 20vw;
+}
+
+.todoButtons{
+  
+}
+
+.inputsContainer{
+  display: flex;
+  justify-content: space-between;
+  width: 23%;
+  align-items: center;
+  margin: auto;
+}
